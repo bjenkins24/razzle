@@ -55,7 +55,7 @@ Thus we add `ts-jest` and `@types/jest` to our dev dependencies. Then we augment
 The `tslint.json` and `tsconfig.json` are taken from Microsoft's official 
 [TypeScript-React-Starter](https://github.com/Microsoft/TypeScript-React-Starter).
 
-Note: You do not techincally _need_ to fully replace `babel-loader` with 
+Note: You do not technically _need_ to fully replace `babel-loader` with 
 `ts-loader` to use TypeScript. Both TS and Babel transpile ES6 code,
 so when you run both webpack loaders you are making Razzle do twice the work. From our testing,
 this can make HMR extremely slow on larger apps. Thus, this example overwrites
